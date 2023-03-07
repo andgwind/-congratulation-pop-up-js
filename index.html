@@ -8,28 +8,34 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<title>March</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modal-script.js" defer></script>
+	
 </head>
 <body>
 	<section>
 		<div class="form-box">
 			<div class="form-value">
+				
 				<form action="#">
 					<h2>Добро пожаловать</h2>
 					<div class="input-box">
 						<input class="input-name" type="text" id="names" placeholder="ВАШЕ ИМЯ">
 					</div>
-					<button>Продолжить</button>
+					<button class="form-button">Продолжить</button>
 				</form>
+			
 			</div>
 		</div>
 	</section>
-	
+
 	<div class="modal">
-		<div class="modaal-main">
-			<h2 class="modal-title">С 8 марта!</h2>
+		<div class="modal-main">
+			<h3 class="modal-title">С 8 марта!</h3>
+			
 			<div class="modal-container">
-				<p class="modal-text">Дорогая <span id="result-names">Ирина</span>, пока читаешь эти строчки,<br> скажу вам я, что все цветы растут в одной лишь точке. <br>И точка та - твоя душа,  спокойна и прекранса. <br>Она цветет там не спеша, даря нам всем живые краски.</p>
+				<p class="modal-text">Дорогая <span id="result-names">Ирина</span>, пока читаешь эти строчки,<br>Cкажу вам я, что все цветы растут в одной лишь точке. <br>И точка та - твоя душа,  спокойна и прекранса. <br>Она цветет там не спеша, даря нам всем живые краски.</p>
 			</div>
+		<button class="modal-close">&#10006;</button>
 		</div>
 	</div>
 	<script src="js/script.js"></script>

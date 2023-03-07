@@ -1,5 +1,11 @@
-var input = document.getElementById('names');
+const btnModalOpen = document.querySelector('.form-button');
 
-  input.oninput = function() {
-    document.getElementById('result-names').innerHTML = input.value;
+const getName = () => {
+  var inputNames = document.getElementById('names');
+
+  inputNames.oninput = function() {
+    document.getElementById('result-names').innerHTML = inputNames.value;
   };
+};
+
+getName();
